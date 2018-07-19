@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PeasLoadingView">
+        <attr name="peas_radius" format="float"></attr>
+        <attr name="peas_count" format="integer"></attr>
+    </declare-styleable>
+</resources>
