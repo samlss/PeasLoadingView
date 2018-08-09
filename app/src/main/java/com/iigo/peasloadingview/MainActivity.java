@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
     private PeasLoadingView peasLoadingView2;
     private PeasLoadingView peasLoadingView3;
     private PeasLoadingView peasLoadingView4;
+    private PeasLoadingView peasLoadingView5;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
         peasLoadingView2 = findViewById(R.id.plv_loading2);
         peasLoadingView3 = findViewById(R.id.plv_loading3);
         peasLoadingView4 = findViewById(R.id.plv_loading4);
+        peasLoadingView5 = findViewById(R.id.plv_loading5);
 
         peasLoadingView4.setPeasCount(7);
         peasLoadingView4.setInterpolator(new LinearInterpolator());
@@ -38,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
         peasLoadingView2.start();
         peasLoadingView3.start();
         peasLoadingView4.start();
+        peasLoadingView5.start();
     }
 
     public void onStop(View view) {
@@ -45,6 +48,7 @@ public class MainActivity extends AppCompatActivity {
         peasLoadingView2.stop();
         peasLoadingView3.stop();
         peasLoadingView4.stop();
+        peasLoadingView5.stop();
     }
 
     @Override
