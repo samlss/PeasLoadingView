@@ -13,7 +13,7 @@ A peas ratationloading view(一个小豆豆旋转loading view).
 
 <br>
 
-![gif](https://github.com/samlss/PeasLoadingView/blob/master/screenshots/screenshot2.gif)
+![gif](https://github.com/samlss/PeasLoadingView/blob/master/screenshots/screenshot3.gif)
 
 
 
